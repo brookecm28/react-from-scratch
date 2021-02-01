@@ -11,7 +11,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #282c34;
-  padding-left: 20px;
+  padding-left: 50px;
   font-weight: bold;
 }
 
@@ -21,7 +21,7 @@
   
 }
 
-.container {
+.list-container {
   display: flex;
   justify-content: center;
 }
@@ -74,7 +74,7 @@
 }
 
 .leftSide {
-  width: 60%;
+  width: 80%;
   text-align: left;
   padding-left:100px;
 }
@@ -91,21 +91,37 @@
   text-decoration-color:dodgerblue;
   padding-top: 20px;
   margin-bottom: 0;
+  font-weight: bolder;
 }
 
 .favorites {
   padding: 0px;
   margin-top: 50px;
+  font-weight: bolder;
 }
 
 .listItem {
   margin-left: 100px;
+  font-weight: bold;
+  margin-left: 65px;
 }
 
 .personNumber {
   display: flex;
   position: absolute;
   right: 12%;
-  top: 23%;
+  top: 20%;
   font-size: 20pt;
+  font-weight: bolder;
+}
+
+.needs-bold {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.info {
+  margin-right: 6px;
+  font-weight: bolder;
 }
